@@ -13,7 +13,7 @@ function CountryInfo() {
             <div className="text-center mx-auto my-4 max-w-sm">
                 {
                     <select
-                        className="select select-bordered bg-slate-200 text-slate-700 text-base w-full"
+                        className="select select-bordered bg-primary focus:outline-none focus:ring focus:ring-violet-300 text-slate-200 text-base w-full"
                         value={country}
                         onChange={(e) => handleSelect(e.target.value)}
                     >

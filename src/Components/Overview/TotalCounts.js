@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { selectTotalCounts, getTotalCounts } from "../../redux/covidDataSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

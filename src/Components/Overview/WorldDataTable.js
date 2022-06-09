@@ -31,7 +31,7 @@ function WorldDataTable() {
         { title: "New Recovered", field: "new_recovered" },
         { title: "Total Deaths", field: "total_deaths" },
         { title: "New Deaths", field: "new_deaths" },
-        { title: "Serious Critical", field: "serious_critical" },
+        { title: "Critical Cases", field: "critical_cases" },
         { title: "Total Tests", field: "tests" },
         { title: "Population", field: "population" },
     ];
@@ -72,7 +72,7 @@ function WorldDataTable() {
             new_recovered: Intl.NumberFormat("tr-TR").format(todayRecovered),
             total_deaths: Intl.NumberFormat("tr-TR").format(deaths),
             new_deaths: Intl.NumberFormat("tr-TR").format(todayDeaths),
-            serious_critical: Intl.NumberFormat("tr-TR").format(critical),
+            critical_cases: Intl.NumberFormat("tr-TR").format(critical),
             tests: Intl.NumberFormat("tr-TR").format(tests),
             population: Intl.NumberFormat("tr-TR").format(population),
         };

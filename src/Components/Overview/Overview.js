@@ -1,4 +1,3 @@
-import React, { memo } from "react";
 import TotalCounts from "./TotalCounts";
 import WorldDataTable from "./WorldDataTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
