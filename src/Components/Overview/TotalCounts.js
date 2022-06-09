@@ -31,7 +31,7 @@ function TotalCounts() {
                     <CountUp
                         start={0}
                         end={data.cases}
-                        duration={2.5}
+                        duration={3.5}
                         separator="."
                         className="text-2xl"
                     />
@@ -48,7 +48,7 @@ function TotalCounts() {
                     <CountUp
                         start={0}
                         end={data.recovered}
-                        duration={2.5}
+                        duration={3.5}
                         separator="."
                         className="text-2xl"
                     />
@@ -64,7 +64,7 @@ function TotalCounts() {
                     <CountUp
                         start={0}
                         end={data.deaths}
-                        duration={2.5}
+                        duration={3.5}
                         separator="."
                         className="text-2xl"
                     />
@@ -80,7 +80,7 @@ function TotalCounts() {
                     <CountUp
                         start={0}
                         end={data.todayCases}
-                        duration={2.5}
+                        duration={3.5}
                         separator="."
                         className="text-2xl"
                     />
@@ -99,7 +99,7 @@ function TotalCounts() {
                     <CountUp
                         start={0}
                         end={data.todayRecovered}
-                        duration={2.5}
+                        duration={3.5}
                         separator="."
                         className="text-2xl"
                     />
@@ -118,7 +118,7 @@ function TotalCounts() {
                     <CountUp
                         start={0}
                         end={data.todayDeaths}
-                        duration={2.5}
+                        duration={3.5}
                         separator="."
                         className="text-2xl"
                     />
