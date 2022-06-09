@@ -21,6 +21,8 @@ function App() {
 
     const [path, setPath] = useState("location.pathname");
 
+    const [isOpen, setIsOpen] = useState(false);
+
     useEffect(() => {
         setPath(location.pathname);
     }, [location]);
@@ -65,7 +67,10 @@ function App() {
                         </Link>
                     </div>
 
-                    <button className="btn btn-primary rounded-lg block md:hidden">
+                    <button
+                        className="btn btn-primary rounded-lg block md:hidden"
+                        onClick={() => setIsOpen(!isOpen)}
+                    >
                         <svg
                             className="swap-off fill-current"
                             xmlns="http://www.w3.org/2000/svg"
@@ -79,10 +84,10 @@ function App() {
                 </nav>
             </header>
 
-            <div className={"hidden"}>
-                <ul className="menu bg-base-300 p-2 w-full border-b-4 border-primary">
+            <div className={isOpen ? "block" : "hidden"}>
+                <ul className=" menu bg-base-300 p-2 w-full border-b-4 border-primary">
                     <li className="hover:bg-primary hover:text-slate-200 rounded-xl">
-                        <Link to="/">
+                        <Link to="/" onClick={() => setIsOpen(false)}>
                             <FontAwesomeIcon
                                 icon={faCircleInfo}
                                 className="mr-1"
@@ -90,14 +95,17 @@ function App() {
                             General Overview
                         </Link>
                     </li>
-                    <li className="hover:bg-primary hover:text-slate-200">
-                        <Link to="/worldMap">
+                    <li className="hover:bg-primary hover:text-slate-200 rounded-xl">
+                        <Link to="/worldMap" onClick={() => setIsOpen(false)}>
                             <FontAwesomeIcon icon={faGlobe} className="mr-1" />
                             World Map
                         </Link>
                     </li>
-                    <li className="hover:bg-primary hover:text-slate-200">
-                        <Link to="/countryInfo">
+                    <li className="hover:bg-primary hover:text-slate-200 rounded-xl">
+                        <Link
+                            to="/countryInfo"
+                            onClick={() => setIsOpen(false)}
+                        >
                             <FontAwesomeIcon icon={faFlag} className="mr-1" />
                             Country Info
                         </Link>
