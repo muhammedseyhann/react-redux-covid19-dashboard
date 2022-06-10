@@ -14,7 +14,7 @@ function Footer() {
                 >
                     <FontAwesomeIcon
                         icon={faGithub}
-                        className="mr-2 hover:text-white hover:bg-primary rounded-full align-middle"
+                        className="mr-2 hover:text-white hover:bg-primary rounded-full"
                     />
                 </a>
                 <a
@@ -24,7 +24,7 @@ function Footer() {
                 >
                     <FontAwesomeIcon
                         icon={faLinkedin}
-                        className="hover:text-white hover:bg-primary align-middle"
+                        className="hover:text-white hover:bg-primary"
                     />
                 </a>
             </p>
