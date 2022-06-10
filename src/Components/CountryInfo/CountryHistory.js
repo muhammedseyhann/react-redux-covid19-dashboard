@@ -99,11 +99,13 @@ function CountryHistory({ code }) {
 
     return data && !isLoading ? (
         <div className="my-8 mx-4">
+            {/* Title */}
             <div className="inline-flex items-center gap-4 text-2xl md:text-3xl my-4 text-slate-200">
                 <FontAwesomeIcon icon={faLineChart} />
                 <h1>{"Country Statistics : " + data.country}</h1>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* First Graph */}
                 <div className="border-b-yellow-600 border-b-8 rounded-xl p-2 bg-slate-200">
                     <Line
                         options={options1}
@@ -119,7 +121,7 @@ function CountryHistory({ code }) {
                         }}
                     />
                 </div>
-
+                {/* Second Graph */}
                 <div className="border-b-red-500 border-b-8 rounded-xl p-2 bg-slate-200">
                     <Line
                         options={options2}

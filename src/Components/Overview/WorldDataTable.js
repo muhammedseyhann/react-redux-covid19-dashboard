@@ -62,7 +62,6 @@ function WorldDataTable() {
 
         return {
             id: index,
-            // flag: require(`../../flags/${iso2}.svg`),
             flag: flag,
             country: countryName,
             total_cases: Intl.NumberFormat("tr-TR").format(cases),

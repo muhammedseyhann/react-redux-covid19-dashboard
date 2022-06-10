@@ -25,9 +25,6 @@ function TotalCounts() {
             {/* First Item */}
             <div className="flex justify-between items-center p-4 bg-slate-700 rounded-lg border-b-8 border-blue-500">
                 <span className="text-white">
-                    {/* <p className="text-2xl">
-                        {Intl.NumberFormat("tr-TR").format(data.TotalCases)}
-                    </p> */}
                     <CountUp
                         start={0}
                         end={data.cases}

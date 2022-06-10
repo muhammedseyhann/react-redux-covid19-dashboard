@@ -30,9 +30,12 @@ function App() {
         <>
             <header className="flex justify-between items-center p-4 border-b-2">
                 <div className="text-2xl text-slate-200">
-                    <span>Covid-19 Tracker</span>
-                    <FontAwesomeIcon icon={faVirusCovid} className="ml-2" />
+                    <Link to="/">
+                        <span>Covid-19 Tracker</span>
+                        <FontAwesomeIcon icon={faVirusCovid} className="ml-2" />
+                    </Link>
                 </div>
+                {/* Navbar */}
                 <nav className="text-xl">
                     <div className="hidden md:block tabs tabs-boxed p-1 bg-base-100">
                         <Link
@@ -84,6 +87,7 @@ function App() {
                 </nav>
             </header>
 
+            {/* Mobile Navbar Menu */}
             <div className={isOpen ? "block" : "hidden"}>
                 <ul className=" menu bg-base-300 p-2 w-full border-b-4 border-primary">
                     <li className="hover:bg-primary hover:text-slate-200 rounded-xl">
@@ -112,6 +116,7 @@ function App() {
                     </li>
                 </ul>
             </div>
+
             <Routes>
                 <Route exact path="/" element={<Overview />} />
                 <Route path="/worldMap" element={<WorldMap />} />
