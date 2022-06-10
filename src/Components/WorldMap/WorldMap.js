@@ -80,7 +80,7 @@ function WorldMap() {
     };
 
     return data && !isLoading ? (
-        <div className="p-4 relative">
+        <div className="px-4 pt-4 relative">
             <h1 className="text-center my-4 text-2xl text-slate-200 align-middle">
                 <FontAwesomeIcon icon={faGlobe} className="mr-2" />
                 Distribution Map of Total Number of Cases
