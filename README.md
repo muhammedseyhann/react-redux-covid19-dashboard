@@ -3,7 +3,15 @@
 
 <h3 align="center"><a href="https://react-redux-covid19-dashboard.netlify.app" target="_blank" rel="noreferrer noopener">See Demo Here</a></h3>
 <br/>
+<div align="center">
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></img>
+<img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"></img>
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
 
+</div>
+
+<br/>
 <img align="center" src="./ss_1.png">
 
 <br >
@@ -13,14 +21,6 @@
 <img align="center" src="./ss_3.png">
 
 <br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></img>
-<img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"></img>
-<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
-<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
-
-</div>
 
 ## Built with
 
